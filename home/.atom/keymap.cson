@@ -1,0 +1,96 @@
+# My keymap for Atom
+
+#
+#                     _|                  _|
+# _|      _|      _|      _|_|_|      _|_|_|    _|_|    _|      _|      _|
+# _|      _|      _|  _|  _|    _|  _|    _|  _|    _|  _|      _|      _|
+#   _|  _|  _|  _|    _|  _|    _|  _|    _|  _|    _|    _|  _|  _|  _|
+#     _|      _|      _|  _|    _|    _|_|_|    _|_|        _|      _|
+#
+#
+
+'body':
+  'ctrl-down': 'window:toggle-bottom-dock'
+  'ctrl-left': 'window:toggle-left-dock'
+  'ctrl-right': 'window:toggle-right-dock'
+  'ctrl-d': 'unset!' # core:delete
+
+'.platform-darwin':
+  'cmd-+': 'unset!' # window:increase-font-size
+  'cmd-=': 'unset!' # window:increase-font-size
+  'cmd-0': 'unset!' # window:reset-font-size
+  'cmd-t': 'application:new-file' # shadows fuzzy-finder:toggle-file-finder
+  'cmd-W': 'pane:reopen-closed-item' # shadows window:close
+  # advanced-open-file
+  'alt-cmd-o': 'advanced-open-file:toggle'
+  # atom-overtype-mode
+  'cmd-i': 'overtype-mode:toggle'
+  # cursor-history
+  'alt-cmd-_': 'cursor-history:next'
+  'alt-cmd--': 'cursor-history:prev'
+  'cmd-_': 'cursor-history:next-within-editor' # shadows window:decrease-font-size
+  'cmd--': 'cursor-history:prev-within-editor' # shadows window:decrease-font-size
+  # project-plus
+  'ctrl-cmd-p': 'project-plus:toggle-project-finder'
+  # tree-view
+  'cmd-\\': 'tree-view:toggle'
+  'cmd-|': 'tree-view:reveal-active-file'
+
+'.platform-darwin atom-workspace atom-pane':
+  # cursor-history
+  'alt-cmd--': 'unset!' # pane:decrease-size
+
+#
+#                 _|  _|    _|
+#   _|_|      _|_|_|      _|_|_|_|    _|_|    _|  _|_|
+# _|_|_|_|  _|    _|  _|    _|      _|    _|  _|_|
+# _|        _|    _|  _|    _|      _|    _|  _|
+#   _|_|_|    _|_|_|  _|      _|_|    _|_|    _|
+#
+#
+
+'.platform-darwin atom-text-editor':
+  # hey-pane
+  'cmd-h': 'hey-pane:toggle-focus-of-active-pane' # shadows application:hide
+
+'atom-text-editor:not([mini])':
+  'ctrl-shift-down': 'unset!' # editor:add-selection-below
+  'ctrl-shift-up': 'unset!' # editor:add-selection-above
+
+'.platform-darwin atom-text-editor:not([mini])':
+  # column-select
+  'cmd-down': 'column-select:down'
+  'cmd-end': 'column-select:bottom'
+  'cmd-home': 'column-select:top'
+  'cmd-pagedown': 'column-select:pagedown'
+  'cmd-pageup': 'column-select:pageup'
+  'cmd-up': 'column-select:up'
+  # emmet
+  'ctrl-v e': 'emmet:expand-abbreviation'
+
+#
+#           _|                      _|
+# _|_|_|    _|  _|    _|    _|_|_|      _|_|_|      _|_|_|
+# _|    _|  _|  _|    _|  _|    _|  _|  _|    _|  _|_|
+# _|    _|  _|  _|    _|  _|    _|  _|  _|    _|      _|_|
+# _|_|_|    _|    _|_|_|    _|_|_|  _|  _|    _|  _|_|_|
+# _|                            _|
+# _|                        _|_|
+
+'.advanced-open-file atom-text-editor':
+  # advanced-open-file
+  'down': 'advanced-open-file:move-cursor-down'
+  'pagedown': 'advanced-open-file:move-cursor-bottom'
+  'pageup': 'advanced-open-file:move-cursor-top'
+  'tab': 'advanced-open-file:autocomplete'
+  'up': 'advanced-open-file:move-cursor-up'
+
+'.tree-view':
+  # tree-view
+  'a': 'tree-view:add-file'
+  'backspace': 'tree-view:remove'
+  'cmd-backspace': 'tree-view:remove'
+  'd': 'tree-view:duplicate'
+  'enter': 'tree-view:move'
+  'left': 'tree-view:collapse-directory'
+  'right': 'tree-view:expand-item'

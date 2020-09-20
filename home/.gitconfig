@@ -1,0 +1,31 @@
+[core]
+	autocrlf = input
+	editor = vim
+	excludesfile = ~/.gitignore
+	ignoreCase = false
+[merge]
+	tool = opendiff
+	conflictStyle = diff3
+[hub]
+	protocol = git
+[push]
+	default = simple
+[alias]
+	alias = !"git alias-tsv | sed 's/\\./ /; s/'\\''/'\\''\\\\'\\'''\\''/g; s/	/='\\''/; s/$/'\\''/'"
+	alias-tsv = !"git config-tsv | grep '^alias\\.'"
+	config-tsv = !"git config -l | sed 's/	/^I/g; s/=/	/'"
+	log-tsv = "log --format='%H	%an <%ae>	%ad	%s'"
+	reflog-tsv = "reflog --format='%h	%gd	%gs'"
+	checkouts = !"git reflog | sed -En 's/[0-9a-z]+ [^ ]+: checkout: moving from ([^ ]+) to [^ ]+/\\1/p'"
+	ignored-files = !"git status --ignored --porcelain -uall | sed -n 's/^!! //p'"
+	current-branch = symbolic-ref --short HEAD
+	current-hash = !"GIT_PAGER= git show -s --format=%H"
+	contributors = shortlog -ns --no-merges
+	phd = rev-parse --show-toplevel # print home directory
+	home = !":" # for completion, defined in ~/.bash_profile
+	sw = !"git checkout $(git checkouts | awk '_[$0]++==0' | fzf)"
+	branches = !"git branch | cut -c3- | sed -E \"s#remotes/($(for i in $(git remote); do printf %s \"|$i\"; done | sed 's/^|//'))/##\" | awk '_[$0]++==0'"
+[credential]
+	helper = osxkeychain
+[user]
+	useConfigOnly = true

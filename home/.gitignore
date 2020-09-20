@@ -1,0 +1,6 @@
+# ctags
+.ctags
+.tags
+
+# OS
+.DS_Store
