@@ -34,8 +34,10 @@ we	ゑ
 wo	を
 xwa	ゎ
 xwu	ぅ
+xwo	𛅒
 lwa	ゎ
 lwu	ぅ
+lwo	𛅒
 wha	うぁ
 whi	うぃ
 whu	う
@@ -713,12 +715,16 @@ l'yo	ョ
 'wo	ヲ
 x'wa	ヮ
 x'wu	ゥ
+x'wo	𛅦
 l'wa	ヮ
 l'wu	ゥ
+l'wo	𛅦
 'xwa	ヮ
 'xwu	ゥ
+'xwo	𛅦
 'lwa	ヮ
 'lwu	ゥ
+'lwo	𛅦
 'wha	ウァ
 'whi	ウィ
 'whu	ウ
