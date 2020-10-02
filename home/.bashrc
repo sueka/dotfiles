@@ -28,6 +28,7 @@ if [[ -r "$brew_install_path"/etc/profile.d/bash_completion.sh ]]; then
 fi
 
 source <(kubectl completion bash)
+source <(npm completion)
 
 # travis gem adds:
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
