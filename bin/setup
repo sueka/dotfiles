@@ -71,7 +71,7 @@ main() {
 	do
 		install \
 			"$path_to_dotfile" \
-			"$(printf %s "$path_to_dotfile" | sed "s/^$home_dotfiles_dir/${home:-$default_home}/")"
+			"$(printf %s "$path_to_dotfile" | sed "s%^$home_dotfiles_dir%${home:-$default_home}%")"
 	done
 }
 
