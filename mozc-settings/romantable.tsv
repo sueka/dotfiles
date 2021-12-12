@@ -13,20 +13,7 @@ li	ぃ
 lu	ぅ
 le	ぇ
 lo	ぉ
-ya	や
-yi	い
-yu	ゆ
-ye	𛀁
-yo	よ
-xya	ゃ
-xyi	ぃ
-xyu	ゅ
-xyo	ょ
-lya	ゃ
-lyi	ぃ
-lyu	ゅ
-lyo	ょ
-yy	っ	y
+
 wa	わ
 wi	ゐ
 wu	う
@@ -42,6 +29,7 @@ lwi	𛅐
 lwu	ぅ
 lwe	𛅑
 lwo	𛅒
+
 wha	うぁ
 whi	うぃ
 whu	う
@@ -49,6 +37,21 @@ whe	うぇ
 who	うぉ
 xwhu	ぅ
 lwhu	ぅ
+
+ya	や
+yi	い
+yu	ゆ
+ye	𛀁
+yo	よ
+xya	ゃ
+xyi	ぃ
+xyu	ゅ
+xyo	ょ
+lya	ゃ
+lyi	ぃ
+lyu	ゅ
+lyo	ょ
+
 wya	ゐゃ
 wyi	ゐ
 wyu	ゐゅ
@@ -56,23 +59,28 @@ wye	ゐぇ
 wyo	ゐょ
 xwyi	𛅐
 lwyi	𛅐
-ww	っ	w
+
+# V: voiced W
 va	ヷ
 vi	ヸ
 vu	ゔ
 ve	ヹ
 vo	ヺ
+
+# Vh: voiced Wh
 vha	ゔぁ
 vhi	ゔぃ
 vhu	ゔ
 vhe	ゔぇ
 vho	ゔぉ
+
+# Vy: voiced Wy
 vya	ヸャ
 vyi	ヸ
 vyu	ヸュ
 vye	ヸェ
 vyo	ヸョ
-vv	っ	v
+
 ka	か
 ki	き
 ku	く
@@ -84,6 +92,7 @@ xke	ゖ
 lka	ゕ
 lku	ㇰ
 lke	ゖ
+
 kwa	くゎ
 kwi	くゐ
 kwu	く
@@ -91,6 +100,7 @@ kwe	くゑ
 kwo	くを
 xkwu	ㇰ
 lkwu	ㇰ
+
 kwha	くぁ
 kwhi	くぃ
 kwhu	く
@@ -98,17 +108,20 @@ kwhe	くぇ
 kwho	くぉ
 xkwhu	ㇰ
 lkwhu	ㇰ
+
 kya	きゃ
 kyi	き
 kyu	きゅ
 kye	きぇ
 kyo	きょ
+
 kwya	くゐゃ
 kwyi	くゐ
 kwyu	くゐゅ
 kwye	くゐぇ
 kwyo	くゐょ
-kk	っ	k
+
+# Q: KW
 qa	くゎ
 qi	くゐ
 qu	く
@@ -116,6 +129,8 @@ qe	くゑ
 qo	くを
 xqu	ㇰ
 lqu	ㇰ
+
+# Qh: KWh
 qha	くぁ
 qhi	くぃ
 qhu	く
@@ -123,12 +138,14 @@ qhe	くぇ
 qho	くぉ
 xqhu	ㇰ
 lqhu	ㇰ
+
+# Qy: KWy
 qya	くゐゃ
 qyi	くゐ
 qyu	くゐゅ
 qye	くゐぇ
 qyo	くゐょ
-qq	っ	q
+
 ca	か
 cu	く
 co	こ
@@ -136,6 +153,7 @@ xca	ヵ
 xcu	ㇰ
 lca	ヵ
 lcu	ㇰ
+
 sa	さ
 si	し
 su	す
@@ -145,6 +163,7 @@ xsi	ㇱ
 xsu	ㇲ
 lsi	ㇱ
 lsu	ㇲ
+
 swa	さ
 swi	すぃ
 swu	す
@@ -152,6 +171,7 @@ swe	せ
 swo	そ
 xswu	ㇲ
 lswu	ㇲ
+
 swha	さ
 swhi	すぃ
 swhu	す
@@ -159,6 +179,7 @@ swhe	せ
 swho	そ
 xswhu	ㇲ
 lswhu	ㇲ
+
 sya	しゃ
 syi	し
 syu	しゅ
@@ -166,6 +187,7 @@ sye	しぇ
 syo	しょ
 xsyi	ㇱ
 lsyi	ㇱ
+
 swya	しゃ
 swyi	し
 swyu	しゅ
@@ -173,6 +195,8 @@ swye	しぇ
 swyo	しょ
 xswyi	ㇱ
 lswyi	ㇱ
+
+# SH: SY
 sha	しゃ
 shi	し
 shu	しゅ
@@ -180,64 +204,84 @@ she	しぇ
 sho	しょ
 xshi	ㇱ
 lshi	ㇱ
-ss	っ	s
+
 ci	し
 ce	せ
 xci	ㇱ
 lci	ㇱ
+
 ta	た
 ti	ち
 tu	つ
 te	て
 to	と
+xtu	っ
+ltu	っ
 xto	ㇳ
 lto	ㇳ
+
 twa	つぁ
 twi	つぃ
 twu	つ
 twe	つぇ
 two	つぉ
+xtwu	っ
+ltwu	っ
+
 twha	つぁ
 twhi	つぃ
 twhu	つ
 twhe	つぇ
 twho	つぉ
+xtwhu	っ
+ltwhu	っ
+
 tya	ちゃ
 tyi	ち
 tyu	ちゅ
 tye	ちぇ
 tyo	ちょ
+
 twya	ちゃ
 twyi	ち
 twyu	ちゅ
 twye	ちぇ
 twyo	ちょ
+
+# TS: TW
 tsa	つぁ
 tsi	つぃ
 tsu	つ
 tse	つぇ
 tso	つぉ
+
+# TSy: TWy
 tsya	ちゃ
 tsyi	ち
 tsyu	ちゅ
 tsye	ちぇ
 tsyo	ちょ
+
+# tSH: tSY, TSy: TWy
 tsha	ちゃ
 tshi	ち
 tshu	ちゅ
 tshe	ちぇ
 tsho	ちょ
+
 tha	てゃ
 thi	てぃ
 thu	てゅ
 the	て
 tho	てょ
-tt	っ	t
+
+# CH: TY
 cha	ちゃ
 chi	ち
 chu	ちゅ
 che	ちぇ
 cho	ちょ
+
 na	な
 ni	に
 nu	ぬ
@@ -245,6 +289,7 @@ ne	ね
 no	の
 xnu	ㇴ
 lnu	ㇴ
+
 nwa	な
 nwi	に
 nwu	ぬ
@@ -252,6 +297,7 @@ nwe	ね
 nwo	の
 xnwu	ㇴ
 lnwu	ㇴ
+
 nwha	な
 nwhi	に
 nwhu	ぬ
@@ -259,16 +305,19 @@ nwhe	ね
 nwho	の
 xnwhu	ㇴ
 lnwhu	ㇴ
+
 nya	にゃ
 nyi	に
 nyu	にゅ
 nye	にぇ
 nyo	にょ
+
 nwya	にゃ
 nwyi	に
 nwyu	にゅ
 nwye	にぇ
 nwyo	にょ
+
 ha	は
 hi	ひ
 hu	ふ
@@ -284,6 +333,7 @@ lhi	ㇶ
 lhu	ㇷ
 lhe	ㇸ
 lho	ㇹ
+
 hwa	ふぁ
 hwi	ふぃ
 hwu	ふ
@@ -291,6 +341,7 @@ hwe	ふぇ
 hwo	ふぉ
 xhwu	ㇷ
 lhwu	ㇷ
+
 hwha	ふぁ
 hwhi	ふぃ
 hwhu	ふ
@@ -298,6 +349,7 @@ hwhe	ふぇ
 hwho	ふぉ
 xhwhu	ㇷ
 lhwhu	ㇷ
+
 hya	ひゃ
 hyi	ひ
 hyu	ひゅ
@@ -305,12 +357,14 @@ hye	ひぇ
 hyo	ひょ
 xhyi	ㇶ
 lhyi	ㇶ
+
 hwya	ふゃ
 hwyi	ふぃ
 hwyu	ふゅ
 hwye	ふぇ
 hwyo	ふょ
-hh	っ	h
+
+# F: HW
 fa	ふぁ
 fi	ふぃ
 fu	ふ
@@ -318,6 +372,8 @@ fe	ふぇ
 fo	ふぉ
 xfu	ㇷ
 lfu	ㇷ
+
+# Fh: HWh
 fha	ふぁ
 fhi	ふぃ
 fhu	ふ
@@ -325,12 +381,15 @@ fhe	ふぇ
 fho	ふぉ
 xfhu	ㇷ
 lfhu	ㇷ
+
+# Fy: HWy
 fya	ふゃ
 fyi	ふぃ
 fyu	ふゅ
 fye	ふぇ
 fyo	ふょ
-ff	っ	f
+
+# PH: HWH
 pha	ふぁ
 phi	ふぃ
 phu	ふ
@@ -338,6 +397,7 @@ phe	ふぇ
 pho	ふぉ
 xphu	ㇷ
 lphu	ㇷ
+
 ma	ま
 mi	み
 mu	む
@@ -345,6 +405,7 @@ me	め
 mo	も
 xmu	ㇺ
 lmu	ㇺ
+
 mwa	ま
 mwi	み
 mwu	む
@@ -352,6 +413,7 @@ mwe	め
 mwo	も
 xmwu	ㇺ
 lmwu	ㇺ
+
 mwha	ま
 mwhi	み
 mwhu	む
@@ -359,16 +421,19 @@ mwhe	め
 mwho	も
 xmwhu	ㇺ
 lmwhu	ㇺ
+
 mya	みゃ
 myi	み
 myu	みゅ
 mye	みぇ
 myo	みょ
+
 mwya	みゃ
 mwyi	み
 mwyu	みゅ
 mwye	みぇ
 mwyo	みょ
+
 ra	ら
 ri	り
 ru	る
@@ -384,6 +449,7 @@ lri	ㇼ
 lru	ㇽ
 lre	ㇾ
 lro	ㇿ
+
 rwa	ら
 rwi	り
 rwu	る
@@ -399,6 +465,7 @@ lrwi	ㇼ
 lrwu	ㇽ
 lrwe	ㇾ
 lrwo	ㇿ
+
 rwha	ら
 rwhi	り
 rwhu	る
@@ -414,6 +481,7 @@ lrwhi	ㇼ
 lrwhu	ㇽ
 lrwhe	ㇾ
 lrwho	ㇿ
+
 rya	りゃ
 ryi	り
 ryu	りゅ
@@ -421,6 +489,7 @@ rye	りぇ
 ryo	りょ
 xryi	ㇼ
 lryi	ㇼ
+
 rwya	りゃ
 rwyi	り
 rwyu	りゅ
@@ -428,1112 +497,295 @@ rwye	りぇ
 rwyo	りょ
 xrwyi	ㇼ
 lrwyi	ㇼ
-rr	っ	r
+
 ga	が
 gi	ぎ
 gu	ぐ
 ge	げ
 go	ご
+
 gwa	ぐゎ
 gwi	ぐゐ
 gwu	ぐ
 gwe	ぐゑ
 gwo	ぐを
+
 gwha	ぐぁ
 gwhi	ぐぃ
 gwhu	ぐ
 gwhe	ぐぇ
 gwho	ぐぉ
+
 gya	ぎゃ
 gyi	ぎ
 gyu	ぎゅ
 gye	ぎぇ
 gyo	ぎょ
+
 gwya	ぐゐゃ
 gwyi	ぐゐ
 gwyu	ぐゐゅ
 gwye	ぐゐぇ
 gwyo	ぐゐょ
-gg	っ	g
-xnga	か゚
-xngi	き゚
-xngu	く゚
-xnge	け゚
-xngo	こ゚
-xngwa	く゚ゎ
-xngwi	く゚ゐ
-xngwu	く゚
-xngwe	く゚ゑ
-xngwo	く゚を
-xngwha	く゚ぁ
-xngwhi	く゚ぃ
-xngwhu	く゚
-xngwhe	く゚ぇ
-xngwho	く゚ぉ
-xngya	き゚ゃ
-xngyi	き゚
-xngyu	き゚ゅ
-xngye	き゚ぇ
-xngyo	き゚ょ
-xngwya	く゚ゐゃ
-xngwyi	く゚ゐ
-xngwyu	く゚ゐゅ
-xngwye	く゚ゐぇ
-xngwyo	く゚ゐょ
-lnga	か゚
-lngi	き゚
-lngu	く゚
-lnge	け゚
-lngo	こ゚
-lngwa	く゚ゎ
-lngwi	く゚ゐ
-lngwu	く゚
-lngwe	く゚ゑ
-lngwo	く゚を
-lngwha	く゚ぁ
-lngwhi	く゚ぃ
-lngwhu	く゚
-lngwhe	く゚ぇ
-lngwho	く゚ぉ
-lngya	き゚ゃ
-lngyi	き゚
-lngyu	き゚ゅ
-lngye	き゚ぇ
-lngyo	き゚ょ
-lngwya	く゚ゐゃ
-lngwyi	く゚ゐ
-lngwyu	く゚ゐゅ
-lngwye	く゚ゐぇ
-lngwyo	く゚ゐょ
+
+'ga	か゚
+'gi	き゚
+'gu	く゚
+'ge	け゚
+'go	こ゚
+
+'gwa	く゚ゎ
+'gwi	く゚ゐ
+'gwu	く゚
+'gwe	く゚ゑ
+'gwo	く゚を
+
+'gwha	く゚ぁ
+'gwhi	く゚ぃ
+'gwhu	く゚
+'gwhe	く゚ぇ
+'gwho	く゚ぉ
+
+'gya	き゚ゃ
+'gyi	き゚
+'gyu	き゚ゅ
+'gye	き゚ぇ
+'gyo	き゚ょ
+
+'gwya	く゚ゐゃ
+'gwyi	く゚ゐ
+'gwyu	く゚ゐゅ
+'gwye	く゚ゐぇ
+'gwyo	く゚ゐょ
+
 za	ざ
 zi	じ
 zu	ず
 ze	ぜ
 zo	ぞ
+
 zwa	ざ
 zwi	ずぃ
 zwu	ず
 zwe	ぜ
 zwo	ぞ
+
 zwha	ざ
 zwhi	ずぃ
 zwhu	ず
 zwhe	ぜ
 zwho	ぞ
+
 zya	じゃ
 zyi	じ
 zyu	じゅ
 zye	じぇ
 zyo	じょ
+
 zwya	じゃ
 zwyi	じ
 zwyu	じゅ
 zwye	じぇ
 zwyo	じょ
-zz	っ	z
+
+# J: ZY
 ja	じゃ
 ji	じ
 ju	じゅ
 je	じぇ
 jo	じょ
-jj	っ	j
+
 da	だ
 di	ぢ
 du	づ
 de	で
 do	ど
+
 dwa	づぁ
 dwi	づぃ
 dwu	づ
 dwe	づぇ
 dwo	づぉ
+
 dwha	づぁ
 dwhi	づぃ
 dwhu	づ
 dwhe	づぇ
 dwho	づぉ
+
 dya	ぢゃ
 dyi	ぢ
 dyu	ぢゅ
 dye	ぢぇ
 dyo	ぢょ
+
 dwya	ぢゃ
 dwyi	ぢ
 dwyu	ぢゅ
 dwye	ぢぇ
 dwyo	ぢょ
+
+# DZ: DW
 dza	づぁ
 dzi	づぃ
 dzu	づ
 dze	づぇ
 dzo	づぉ
+
+# DZy: DWy
 dzya	ぢゃ
 dzyi	ぢ
 dzyu	ぢゅ
 dzye	ぢぇ
 dzyo	ぢょ
+
+# dJ: dZY, DZy: DWy
 dja	ぢゃ
 dji	ぢ
 dju	ぢゅ
 dje	ぢぇ
 djo	ぢょ
+
 dha	でゃ
 dhi	でぃ
 dhu	でゅ
 dhe	で
 dho	でょ
-dd	っ	d
+
 ba	ば
 bi	び
 bu	ぶ
 be	べ
 bo	ぼ
+
 bwa	ば
 bwi	び
 bwu	ぶ
 bwe	べ
 bwo	ぼ
+
 bwha	ば
 bwhi	び
 bwhu	ぶ
 bwhe	べ
 bwho	ぼ
+
 bya	びゃ
 byi	び
 byu	びゅ
 bye	びぇ
 byo	びょ
+
 bwya	びゃ
 bwyi	び
 bwyu	びゅ
 bwye	びぇ
 bwyo	びょ
-bb	っ	b
+
 pa	ぱ
 pi	ぴ
 pu	ぷ
 pe	ぺ
 po	ぽ
+
 pwa	ぱ
 pwi	ぴ
 pwu	ぷ
 pwe	ぺ
 pwo	ぽ
+
 pwha	ぱ
 pwhi	ぴ
 pwhu	ぷ
 pwhe	ぺ
 pwho	ぽ
+
 pya	ぴゃ
 pyi	ぴ
 pyu	ぴゅ
 pye	ぴぇ
 pyo	ぴょ
+
 pwya	ぴゃ
 pwyi	ぴ
 pwyu	ぴゅ
 pwye	ぴぇ
 pwyo	ぴょ
+
+ww	っ	w
+yy	っ	y
+vv	っ	v
+kk	っ	k
+qq	っ	q
+ss	っ	s
+tt	っ	t
+hh	っ	h
+ff	っ	f
+rr	っ	r
+gg	っ	g
+zz	っ	z
+jj	っ	j
+dd	っ	d
+bb	っ	b
 pp	っ	p
+cc	っ	c
 xx	っ	x
 ll	っ	l
-cc	っ	c
-xtu	っ
-ltu	っ
-xtwu	っ
-ltwu	っ
-xtwhu	っ
-ltwhu	っ
-xtsu	っ
-ltsu	っ
-xtswu	っ
-ltswu	っ
-xtswhu	っ
-ltswhu	っ
+''	っ	'
+
+# xL: xX
 xl	っ	l
+
+# kQ: kKW
 kq	っ	q
+
+# tCH: tTY
 tch	っ	ch
+
+# hF: hHW
 hf	っ	f
+
+# hPH: hHWH
 hph	っ	ph
+
+# zJ: zZY
 zj	っ	j
+
+# lX: lL
 lx	っ	x
-qkw	っ	kw
-cty	っ	ty
-fhw	っ	hw
-phwh	っ	hwh
-jzy	っ	zy
+
 n	ん
 m	ん
-xng	ん
-lng	ん
+'g	ん
+'g	ん
 nm	ん
 mn	ん
-'a	ア
-'i	イ
-'u	ウ
-'e	エ
-'o	オ
-x'a	ァ
-x'i	ィ
-x'u	ゥ
-x'e	ェ
-x'o	ォ
-l'a	ァ
-l'i	ィ
-l'u	ゥ
-l'e	ェ
-l'o	ォ
-'xa	ァ
-'xi	ィ
-'xu	ゥ
-'xe	ェ
-'xo	ォ
-'la	ァ
-'li	ィ
-'lu	ゥ
-'le	ェ
-'lo	ォ
-'ya	ヤ
-'yi	イ
-'yu	ユ
+xn	𛅧
+xm	𛅧
+x'g	𛅧
+x'g	𛅧
+xnm	𛅧
+xmn	𛅧
+ln	𛅧
+lm	𛅧
+l'g	𛅧
+l'g	𛅧
+lnm	𛅧
+lmn	𛅧
+
 'ye	𛀀
-'yo	ヨ
-x'ya	ャ
-x'yi	ィ
-x'yu	ュ
-x'yo	ョ
-l'ya	ャ
-l'yi	ィ
-l'yu	ュ
-l'yo	ョ
-'xya	ャ
-'xyi	ィ
-'xyu	ュ
-'xyo	ョ
-'lya	ャ
-'lyi	ィ
-'lyu	ュ
-'lyo	ョ
-'wa	ワ
-'wi	ヰ
-'wu	ウ
-'we	ヱ
-'wo	ヲ
-x'wa	ヮ
-x'wi	𛅤
-x'wu	ゥ
-x'we	𛅥
-x'wo	𛅦
-l'wa	ヮ
-l'wi	𛅤
-l'wu	ゥ
-l'we	𛅥
-l'wo	𛅦
-'xwa	ヮ
 'xwi	𛅤
-'xwu	ゥ
 'xwe	𛅥
 'xwo	𛅦
-'lwa	ヮ
 'lwi	𛅤
-'lwu	ゥ
 'lwe	𛅥
 'lwo	𛅦
-'wha	ウァ
-'whi	ウィ
-'whu	ウ
-'whe	ウェ
-'who	ウォ
-x'whu	ゥ
-l'whu	ゥ
-'xwhu	ゥ
-'lwhu	ゥ
-'wya	ヰャ
-'wyi	ヰ
-'wyu	ヰュ
-'wye	ヰェ
-'wyo	ヰョ
-x'wyi	𛅤
-l'wyi	𛅤
-'xwyi	𛅤
-'lwyi	𛅤
-'va	ヷ
-'vi	ヸ
 'vu	ヴ
-'ve	ヹ
-'vo	ヺ
-'vha	ヴァ
-'vhi	ヴィ
-'vhu	ヴ
-'vhe	ヴェ
-'vho	ヴォ
-'vya	ヸャ
-'vyi	ヸ
-'vyu	ヸュ
-'vye	ヸェ
-'vyo	ヸョ
-'ka	カ
-'ki	キ
-'ku	ク
-'ke	ケ
-'ko	コ
-x'ka	ヵ
-x'ku	ㇰ
-x'ke	ヶ
-l'ka	ヵ
-l'ku	ㇰ
-l'ke	ヶ
 'xka	ヵ
-'xku	ㇰ
 'xke	ヶ
 'lka	ヵ
-'lku	ㇰ
 'lke	ヶ
-'kwa	クヮ
-'kwi	クヰ
-'kwu	ク
-'kwe	クヱ
-'kwo	クヲ
-x'kwu	ㇰ
-l'kwu	ㇰ
-'xkwu	ㇰ
-'lkwu	ㇰ
-'kwha	クァ
-'kwhi	クィ
-'kwhu	ク
-'kwhe	クェ
-'kwho	クォ
-x'kwhu	ㇰ
-l'kwhu	ㇰ
-'xkwhu	ㇰ
-'lkwhu	ㇰ
-'kya	キャ
-'kyi	キ
-'kyu	キュ
-'kye	キェ
-'kyo	キョ
-'kwya	クヰャ
-'kwyi	クヰ
-'kwyu	クヰュ
-'kwye	クヰェ
-'kwyo	クヰョ
-'qa	クヮ
-'qi	クヰ
-'qu	ク
-'qe	クヱ
-'qo	クヲ
-x'qu	ㇰ
-l'qu	ㇰ
-'xqu	ㇰ
-'lqu	ㇰ
-'qha	クァ
-'qhi	クィ
-'qhu	ク
-'qhe	クェ
-'qho	クォ
-x'qhu	ㇰ
-l'qhu	ㇰ
-'xqhu	ㇰ
-'lqhu	ㇰ
-'qya	クヰャ
-'qyi	クヰ
-'qyu	クヰュ
-'qye	クヰェ
-'qyo	クヰョ
-'ca	カ
-'cu	ク
-'co	コ
-x'ca	ヵ
-x'cu	ㇰ
-l'ca	ヵ
-l'cu	ㇰ
-'xca	ヵ
-'xcu	ㇰ
-'lca	ヵ
-'lcu	ㇰ
-'sa	サ
-'si	シ
-'su	ス
-'se	セ
-'so	ソ
-x'si	ㇱ
-x'su	ㇲ
-l'si	ㇱ
-l'su	ㇲ
-'xsi	ㇱ
-'xsu	ㇲ
-'lsi	ㇱ
-'lsu	ㇲ
-'swa	サ
-'swi	スィ
-'swu	ス
-'swe	セ
-'swo	ソ
-x'swu	ㇲ
-l'swu	ㇲ
-'xswu	ㇲ
-'lswu	ㇲ
-'swha	サ
-'swhi	スィ
-'swhu	ス
-'swhe	セ
-'swho	ソ
-x'swhu	ㇲ
-l'swhu	ㇲ
-'xswhu	ㇲ
-'lswhu	ㇲ
-'sya	シャ
-'syi	シ
-'syu	シュ
-'sye	シェ
-'syo	ショ
-x'syi	ㇱ
-l'syi	ㇱ
-'xsyi	ㇱ
-'lsyi	ㇱ
-'swya	シャ
-'swyi	シ
-'swyu	シュ
-'swye	シェ
-'swyo	ショ
-x'swyi	ㇱ
-l'swyi	ㇱ
-'xswyi	ㇱ
-'lswyi	ㇱ
-'sha	シャ
-'shi	シ
-'shu	シュ
-'she	シェ
-'sho	ショ
-x'shi	ㇱ
-l'shi	ㇱ
-'xshi	ㇱ
-'lshi	ㇱ
-'ci	シ
-'ce	セ
-x'ci	ㇱ
-l'ci	ㇱ
-'xci	ㇱ
-'lci	ㇱ
-'ta	タ
-'ti	チ
-'tu	ツ
-'te	テ
-'to	ト
-x'to	ㇳ
-l'to	ㇳ
-'xto	ㇳ
-'lto	ㇳ
-'twa	ツァ
-'twi	ツィ
-'twu	ツ
-'twe	ツェ
-'two	ツォ
-'twha	ツァ
-'twhi	ツィ
-'twhu	ツ
-'twhe	ツェ
-'twho	ツォ
-'tya	チャ
-'tyi	チ
-'tyu	チュ
-'tye	チェ
-'tyo	チョ
-'twya	チャ
-'twyi	チ
-'twyu	チュ
-'twye	チェ
-'twyo	チョ
-'tsa	ツァ
-'tsi	ツィ
-'tsu	ツ
-'tse	ツェ
-'tso	ツォ
-'tsya	チャ
-'tsyi	チ
-'tsyu	チュ
-'tsye	チェ
-'tsyo	チョ
-'tsha	チャ
-'tshi	チ
-'tshu	チュ
-'tshe	チェ
-'tsho	チョ
-'tha	テャ
-'thi	ティ
-'thu	テュ
-'the	テ
-'tho	テョ
-'cha	チャ
-'chi	チ
-'chu	チュ
-'che	チェ
-'cho	チョ
-'na	ナ
-'ni	ニ
-'nu	ヌ
-'ne	ネ
-'no	ノ
-x'nu	ㇴ
-l'nu	ㇴ
-'xnu	ㇴ
-'lnu	ㇴ
-'nwa	ナ
-'nwi	ニ
-'nwu	ヌ
-'nwe	ネ
-'nwo	ノ
-x'nwu	ㇴ
-l'nwu	ㇴ
-'xnwu	ㇴ
-'lnwu	ㇴ
-'nwha	ナ
-'nwhi	ニ
-'nwhu	ヌ
-'nwhe	ネ
-'nwho	ノ
-x'nwhu	ㇴ
-l'nwhu	ㇴ
-'xnwhu	ㇴ
-'lnwhu	ㇴ
-'nya	ニャ
-'nyi	ニ
-'nyu	ニュ
-'nye	ニェ
-'nyo	ニョ
-'nwya	ニャ
-'nwyi	ニ
-'nwyu	ニュ
-'nwye	ニェ
-'nwyo	ニョ
-'ha	ハ
-'hi	ヒ
-'hu	フ
-'he	ヘ
-'ho	ホ
-x'ha	ㇵ
-x'hi	ㇶ
-x'hu	ㇷ
-x'he	ㇸ
-x'ho	ㇹ
-l'ha	ㇵ
-l'hi	ㇶ
-l'hu	ㇷ
-l'he	ㇸ
-l'ho	ㇹ
-'xha	ㇵ
-'xhi	ㇶ
-'xhu	ㇷ
-'xhe	ㇸ
-'xho	ㇹ
-'lha	ㇵ
-'lhi	ㇶ
-'lhu	ㇷ
-'lhe	ㇸ
-'lho	ㇹ
-'hwa	ファ
-'hwi	フィ
-'hwu	フ
-'hwe	フェ
-'hwo	フォ
-x'hwu	ㇷ
-l'hwu	ㇷ
-'xhwu	ㇷ
-'lhwu	ㇷ
-'hwha	ファ
-'hwhi	フィ
-'hwhu	フ
-'hwhe	フェ
-'hwho	フォ
-x'hwhu	ㇷ
-l'hwhu	ㇷ
-'xhwhu	ㇷ
-'lhwhu	ㇷ
-'hya	ヒャ
-'hyi	ヒ
-'hyu	ヒュ
-'hye	ヒェ
-'hyo	ヒョ
-x'hyi	ㇶ
-l'hyi	ㇶ
-'xhyi	ㇶ
-'lhyi	ㇶ
-'hwya	フャ
-'hwyi	フィ
-'hwyu	フュ
-'hwye	フェ
-'hwyo	フョ
-'fa	ファ
-'fi	フィ
-'fu	フ
-'fe	フェ
-'fo	フォ
-x'fu	ㇷ
-l'fu	ㇷ
-'xfu	ㇷ
-'lfu	ㇷ
-'fha	ファ
-'fhi	フィ
-'fhu	フ
-'fhe	フェ
-'fho	フォ
-x'fhu	ㇷ
-l'fhu	ㇷ
-'xfhu	ㇷ
-'lfhu	ㇷ
-'fya	フャ
-'fyi	フィ
-'fyu	フュ
-'fye	フェ
-'fyo	フョ
-'pha	ファ
-'phi	フィ
-'phu	フ
-'phe	フェ
-'pho	フォ
-x'phu	ㇷ
-l'phu	ㇷ
-'xphu	ㇷ
-'lphu	ㇷ
-'ma	マ
-'mi	ミ
-'mu	ム
-'me	メ
-'mo	モ
-x'mu	ㇺ
-l'mu	ㇺ
-'xmu	ㇺ
-'lmu	ㇺ
-'mwa	マ
-'mwi	ミ
-'mwu	ム
-'mwe	メ
-'mwo	モ
-x'mwu	ㇺ
-l'mwu	ㇺ
-'xmwu	ㇺ
-'lmwu	ㇺ
-'mwha	マ
-'mwhi	ミ
-'mwhu	ム
-'mwhe	メ
-'mwho	モ
-x'mwhu	ㇺ
-l'mwhu	ㇺ
-'xmwhu	ㇺ
-'lmwhu	ㇺ
-'mya	ミャ
-'myi	ミ
-'myu	ミュ
-'mye	ミェ
-'myo	ミョ
-'mwya	ミャ
-'mwyi	ミ
-'mwyu	ミュ
-'mwye	ミェ
-'mwyo	ミョ
-'ra	ラ
-'ri	リ
-'ru	ル
-'re	レ
-'ro	ロ
-x'ra	ㇻ
-x'ri	ㇼ
-x'ru	ㇽ
-x're	ㇾ
-x'ro	ㇿ
-l'ra	ㇻ
-l'ri	ㇼ
-l'ru	ㇽ
-l're	ㇾ
-l'ro	ㇿ
-'xra	ㇻ
-'xri	ㇼ
-'xru	ㇽ
-'xre	ㇾ
-'xro	ㇿ
-'lra	ㇻ
-'lri	ㇼ
-'lru	ㇽ
-'lre	ㇾ
-'lro	ㇿ
-'rwa	ラ
-'rwi	リ
-'rwu	ル
-'rwe	レ
-'rwo	ロ
-x'rwa	ㇻ
-x'rwi	ㇼ
-x'rwu	ㇽ
-x'rwe	ㇾ
-x'rwo	ㇿ
-l'rwa	ㇻ
-l'rwi	ㇼ
-l'rwu	ㇽ
-l'rwe	ㇾ
-l'rwo	ㇿ
-'xrwa	ㇻ
-'xrwi	ㇼ
-'xrwu	ㇽ
-'xrwe	ㇾ
-'xrwo	ㇿ
-'lrwa	ㇻ
-'lrwi	ㇼ
-'lrwu	ㇽ
-'lrwe	ㇾ
-'lrwo	ㇿ
-'rwha	ラ
-'rwhi	リ
-'rwhu	ル
-'rwhe	レ
-'rwho	ロ
-x'rwha	ㇻ
-x'rwhi	ㇼ
-x'rwhu	ㇽ
-x'rwhe	ㇾ
-x'rwho	ㇿ
-l'rwha	ㇻ
-l'rwhi	ㇼ
-l'rwhu	ㇽ
-l'rwhe	ㇾ
-l'rwho	ㇿ
-'xrwha	ㇻ
-'xrwhi	ㇼ
-'xrwhu	ㇽ
-'xrwhe	ㇾ
-'xrwho	ㇿ
-'lrwha	ㇻ
-'lrwhi	ㇼ
-'lrwhu	ㇽ
-'lrwhe	ㇾ
-'lrwho	ㇿ
-'rya	リャ
-'ryi	リ
-'ryu	リュ
-'rye	リェ
-'ryo	リョ
-x'ryi	ㇼ
-l'ryi	ㇼ
-'xryi	ㇼ
-'lryi	ㇼ
-'rwya	リャ
-'rwyi	リ
-'rwyu	リュ
-'rwye	リェ
-'rwyo	リョ
-x'rwyi	ㇼ
-l'rwyi	ㇼ
-'xrwyi	ㇼ
-'lrwyi	ㇼ
-'ga	ガ
-'gi	ギ
-'gu	グ
-'ge	ゲ
-'go	ゴ
-'gwa	グヮ
-'gwi	グヰ
-'gwu	グ
-'gwe	グヱ
-'gwo	グヲ
-'gwha	グァ
-'gwhi	グィ
-'gwhu	グ
-'gwhe	グェ
-'gwho	グォ
-'gya	ギャ
-'gyi	ギ
-'gyu	ギュ
-'gye	ギェ
-'gyo	ギョ
-'gwya	グヰャ
-'gwyi	グヰ
-'gwyu	グヰュ
-'gwye	グヰェ
-'gwyo	グヰョ
-x'nga	カ゚
-x'ngi	キ゚
-x'ngu	ク゚
-x'nge	ケ゚
-x'ngo	コ゚
-x'ngwa	ク゚ヮ
-x'ngwi	ク゚ヰ
-x'ngwu	ク゚
-x'ngwe	ク゚ヱ
-x'ngwo	ク゚ヲ
-x'ngwha	ク゚ァ
-x'ngwhi	ク゚ィ
-x'ngwhu	ク゚
-x'ngwhe	ク゚ェ
-x'ngwho	ク゚ォ
-x'ngya	キ゚ャ
-x'ngyi	キ゚
-x'ngyu	キ゚ュ
-x'ngye	キ゚ェ
-x'ngyo	キ゚ョ
-x'ngwya	ク゚ヰャ
-x'ngwyi	ク゚ヰ
-x'ngwyu	ク゚ヰュ
-x'ngwye	ク゚ヰェ
-x'ngwyo	ク゚ヰョ
-l'nga	カ゚
-l'ngi	キ゚
-l'ngu	ク゚
-l'nge	ケ゚
-l'ngo	コ゚
-l'ngwa	ク゚ヮ
-l'ngwi	ク゚ヰ
-l'ngwu	ク゚
-l'ngwe	ク゚ヱ
-l'ngwo	ク゚ヲ
-l'ngwha	ク゚ァ
-l'ngwhi	ク゚ィ
-l'ngwhu	ク゚
-l'ngwhe	ク゚ェ
-l'ngwho	ク゚ォ
-l'ngya	キ゚ャ
-l'ngyi	キ゚
-l'ngyu	キ゚ュ
-l'ngye	キ゚ェ
-l'ngyo	キ゚ョ
-l'ngwya	ク゚ヰャ
-l'ngwyi	ク゚ヰ
-l'ngwyu	ク゚ヰュ
-l'ngwye	ク゚ヰェ
-l'ngwyo	ク゚ヰョ
-'xnga	カ゚
-'xngi	キ゚
-'xngu	ク゚
-'xnge	ケ゚
-'xngo	コ゚
-'xngwa	ク゚ヮ
-'xngwi	ク゚ヰ
-'xngwu	ク゚
-'xngwe	ク゚ヱ
-'xngwo	ク゚ヲ
-'xngwha	ク゚ァ
-'xngwhi	ク゚ィ
-'xngwhu	ク゚
-'xngwhe	ク゚ェ
-'xngwho	ク゚ォ
-'xngya	キ゚ャ
-'xngyi	キ゚
-'xngyu	キ゚ュ
-'xngye	キ゚ェ
-'xngyo	キ゚ョ
-'xngwya	ク゚ヰャ
-'xngwyi	ク゚ヰ
-'xngwyu	ク゚ヰュ
-'xngwye	ク゚ヰェ
-'xngwyo	ク゚ヰョ
-'lnga	カ゚
-'lngi	キ゚
-'lngu	ク゚
-'lnge	ケ゚
-'lngo	コ゚
-'lngwa	ク゚ヮ
-'lngwi	ク゚ヰ
-'lngwu	ク゚
-'lngwe	ク゚ヱ
-'lngwo	ク゚ヲ
-'lngwha	ク゚ァ
-'lngwhi	ク゚ィ
-'lngwhu	ク゚
-'lngwhe	ク゚ェ
-'lngwho	ク゚ォ
-'lngya	キ゚ャ
-'lngyi	キ゚
-'lngyu	キ゚ュ
-'lngye	キ゚ェ
-'lngyo	キ゚ョ
-'lngwya	ク゚ヰャ
-'lngwyi	ク゚ヰ
-'lngwyu	ク゚ヰュ
-'lngwye	ク゚ヰェ
-'lngwyo	ク゚ヰョ
-'za	ザ
-'zi	ジ
-'zu	ズ
-'ze	ゼ
-'zo	ゾ
-'zwa	ザ
-'zwi	ズィ
-'zwu	ズ
-'zwe	ゼ
-'zwo	ゾ
-'zwha	ザ
-'zwhi	ズィ
-'zwhu	ズ
-'zwhe	ゼ
-'zwho	ゾ
-'zya	ジャ
-'zyi	ジ
-'zyu	ジュ
-'zye	ジェ
-'zyo	ジョ
-'zwya	ジャ
-'zwyi	ジ
-'zwyu	ジュ
-'zwye	ジェ
-'zwyo	ジョ
-'ja	ジャ
-'ji	ジ
-'ju	ジュ
-'je	ジェ
-'jo	ジョ
-'da	ダ
-'di	ヂ
-'du	ヅ
-'de	デ
-'do	ド
-'dwa	ヅァ
-'dwi	ヅィ
-'dwu	ヅ
-'dwe	ヅェ
-'dwo	ヅォ
-'dwha	ヅァ
-'dwhi	ヅィ
-'dwhu	ヅ
-'dwhe	ヅェ
-'dwho	ヅォ
-'dya	ヂャ
-'dyi	ヂ
-'dyu	ヂュ
-'dye	ヂェ
-'dyo	ヂョ
-'dwya	ヂャ
-'dwyi	ヂ
-'dwyu	ヂュ
-'dwye	ヂェ
-'dwyo	ヂョ
-'dza	ヅァ
-'dzi	ヅィ
-'dzu	ヅ
-'dze	ヅェ
-'dzo	ヅォ
-'dzya	ヂャ
-'dzyi	ヂ
-'dzyu	ヂュ
-'dzye	ヂェ
-'dzyo	ヂョ
-'dja	ヂャ
-'dji	ヂ
-'dju	ヂュ
-'dje	ヂェ
-'djo	ヂョ
-'dha	デャ
-'dhi	ディ
-'dhu	デュ
-'dhe	デ
-'dho	デョ
-'ba	バ
-'bi	ビ
-'bu	ブ
-'be	ベ
-'bo	ボ
-'bwa	バ
-'bwi	ビ
-'bwu	ブ
-'bwe	ベ
-'bwo	ボ
-'bwha	バ
-'bwhi	ビ
-'bwhu	ブ
-'bwhe	ベ
-'bwho	ボ
-'bya	ビャ
-'byi	ビ
-'byu	ビュ
-'bye	ビェ
-'byo	ビョ
-'bwya	ビャ
-'bwyi	ビ
-'bwyu	ビュ
-'bwye	ビェ
-'bwyo	ビョ
-'pa	パ
-'pi	ピ
-'pu	プ
-'pe	ペ
-'po	ポ
-'pwa	パ
-'pwi	ピ
-'pwu	プ
-'pwe	ペ
-'pwo	ポ
-'pwha	パ
-'pwhi	ピ
-'pwhu	プ
-'pwhe	ペ
-'pwho	ポ
-'pya	ピャ
-'pyi	ピ
-'pyu	ピュ
-'pye	ピェ
-'pyo	ピョ
-'pwya	ピャ
-'pwyi	ピ
-'pwyu	ピュ
-'pwye	ピェ
-'pwyo	ピョ
-xx'	ッ	x'
-ll'	ッ	l'
-''	ッ	'
-x'tu	ッ
-l'tu	ッ
-x'twu	ッ
-l'twu	ッ
-x'twhu	ッ
-l'twhu	ッ
-x'tsu	ッ
-l'tsu	ッ
-x'tswu	ッ
-l'tswu	ッ
-x'tswhu	ッ
-l'tswhu	ッ
-xl'	ッ	l'
-lx'	ッ	x'
-'xtu	ッ
-'ltu	ッ
-'xtwu	ッ
-'ltwu	ッ
-'xtwhu	ッ
-'ltwhu	ッ
-'xtsu	ッ
-'ltsu	ッ
-'xtswu	ッ
-'ltswu	ッ
-'xtswhu	ッ
-'ltswhu	ッ
-'n	ン
-'m	ン
-'xng	ン
-'lng	ン
-'nm	ン
-'mn	ン
-x'n	𛅧
-x'm	𛅧
-x'xng	𛅧
-x'lng	𛅧
-x'nm	𛅧
-x'mn	𛅧
-l'n	𛅧
-l'm	𛅧
-l'xng	𛅧
-l'lng	𛅧
-l'nm	𛅧
-l'mn	𛅧
-'xn	𛅧
-'xm	𛅧
-'xxng	𛅧
-'xlng	𛅧
-'xnm	𛅧
-'xmn	𛅧
-'ln	𛅧
-'lm	𛅧
-'lxng	𛅧
-'llng	𛅧
-'lnm	𛅧
-'lmn	𛅧
+
 -	ー
 ~	～
 ,	、
@@ -1556,6 +808,7 @@ z'	‘
 z"	“
 z!	¡
 z?	¿
+
 z0	〇
 z1	一
 z2	二
@@ -1566,6 +819,7 @@ z6	六
 z7	七
 z8	八
 z9	九
+
 ;00	⠀
 ;80	⠁
 ;40	⠈
@@ -1822,6 +1076,7 @@ z9	九
 ;bf	⣷
 ;7f	⣾
 ;ff	⣿
+
 _-	₋
 _(	₍
 _)	₎
@@ -1879,6 +1134,7 @@ _t	ₜ
 _u	ᵤ
 _x	ₓ
 _v	ᵥ
+
 ^-	⁻
 ^(	⁽
 ^)	⁾
