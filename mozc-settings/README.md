@@ -62,7 +62,7 @@ JIS X 4063:2000 で実装が推奨されている入出力の内、変換でき�
 
 ##### 捨て仮名化フラグ
 
-`x` は、続く仮名を捨て仮名にします。ひらがなの捨て仮名は `ぁ`, `ぃ`, `ぅ`, `ぇ`, `ぉ`, `ゕ`, `ゖ`, `っ`, `ゃ`, `ゅ`, `ょ`, `ゎ`, `𛅐` (U+1B150; HIRAGANA LETTER SMALL WI), `𛅑` (U+1B151; HIRAGANA LETTER SMALL WE), `𛅒` (U+1B152; HIRAGANA LETTER SMALL WO) の15種類、カタカナの捨て仮名は `ァ`, `ィ`, `ゥ`, `ェ`, `ォ`, `ヵ`, `ㇰ`, `ヶ`, `ㇱ`, `ㇲ`, `ッ`, `ㇳ`, `ㇴ`, `ㇵ`, `ㇶ`, `ㇷ`, `ㇸ`, `ㇹ`, `ㇺ`, `ャ`, `ュ`, `ョ`, `ㇻ`, `ㇼ`, `ㇽ`, `ㇾ`, `ㇿ`, `ヮ`, `𛅤` (U+1B164; KATAKANA LETTER SMALL WI), `𛅥` (U+1B165; KATAKANA LETTER SMALL WE), `𛅦` (U+1B166; KATAKANA LETTER SMALL WO) の31種類です。
+`x` は、続く仮名を捨て仮名にします。ひらがなの捨て仮名は `ぁ`, `ぃ`, `ぅ`, `ぇ`, `ぉ`, `ゕ`, `ゖ`, `っ`, `ゃ`, `ゅ`, `ょ`, `ゎ`, `𛅐` (U+1B150; HIRAGANA LETTER SMALL WI), `𛅑` (U+1B151; HIRAGANA LETTER SMALL WE), `𛅒` (U+1B152; HIRAGANA LETTER SMALL WO) の15種類、カタカナの捨て仮名は `ァ`, `ィ`, `ゥ`, `ェ`, `ォ`, `ヵ`, `ㇰ`, `ヶ`, `ㇱ`, `ㇲ`, `ッ`, `ㇳ`, `ㇴ`, `ㇵ`, `ㇶ`, `ㇷ`, `ㇸ`, `ㇹ`, `ㇺ`, `ャ`, `ュ`, `ョ`, `ㇻ`, `ㇼ`, `ㇽ`, `ㇾ`, `ㇿ`, `ヮ`, `𛅤` (U+1B164; KATAKANA LETTER SMALL WI), `𛅥` (U+1B165; KATAKANA LETTER SMALL WE), `𛅦` (U+1B166; KATAKANA LETTER SMALL WO), `𛅧` (U+1B167; KATAKANA LETTER SMALL N) の32種類です。
 
 #### 子音
 
