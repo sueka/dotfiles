@@ -58,7 +58,7 @@ JIS X 4063:2000 で実装が推奨されている入出力の内、変換でき�
 
 ##### カタカナ化フラグ
 
-`'` は、続く仮名をカタカナにします。ひらがなが存在し、かつカタカナに変換できない仮名にのみ適用できます。 `𛅐` (U+1B150; HIRAGANA LETTER SMALL WI), `𛅑` (U+1B151; HIRAGANA LETTER SMALL WE), `𛅒` (U+1B152; HIRAGANA LETTER SMALL WO), `𛀁`, `ゔ`, `ゕ`, `ゖ` の7種類です。
+`'` は、続く仮名をカタカナにします。ひらがなが存在し、かつカタカナに変換できない仮名にのみ適用できます。 `𛀀` (U+1B000; KATAKANA LETTER ARCHAIC E), `𛅤` (U+1B164; KATAKANA LETTER SMALL WI), `𛅥` (U+1B165; KATAKANA LETTER SMALL WE), `𛅦` (U+1B166; KATAKANA LETTER SMALL WO), `ゔ`, `ゕ`, `ゖ` の7種類です。 `𛀀` (U+1B000; KATAKANA LETTER ARCHAIC E) は `'e` と入力します。
 
 ##### 捨て仮名化フラグ
 
