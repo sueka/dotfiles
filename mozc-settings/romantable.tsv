@@ -154,6 +154,66 @@ xcu	ㇰ
 lca	ヵ
 lcu	ㇰ
 
+ga	が
+gi	ぎ
+gu	ぐ
+ge	げ
+go	ご
+
+gwa	ぐゎ
+gwi	ぐゐ
+gwu	ぐ
+gwe	ぐゑ
+gwo	ぐを
+
+gwha	ぐぁ
+gwhi	ぐぃ
+gwhu	ぐ
+gwhe	ぐぇ
+gwho	ぐぉ
+
+gya	ぎゃ
+gyi	ぎ
+gyu	ぎゅ
+gye	ぎぇ
+gyo	ぎょ
+
+gwya	ぐゐゃ
+gwyi	ぐゐ
+gwyu	ぐゐゅ
+gwye	ぐゐぇ
+gwyo	ぐゐょ
+
+'ga	か゚
+'gi	き゚
+'gu	く゚
+'ge	け゚
+'go	こ゚
+
+'gwa	く゚ゎ
+'gwi	く゚ゐ
+'gwu	く゚
+'gwe	く゚ゑ
+'gwo	く゚を
+
+'gwha	く゚ぁ
+'gwhi	く゚ぃ
+'gwhu	く゚
+'gwhe	く゚ぇ
+'gwho	く゚ぉ
+
+'gya	き゚ゃ
+'gyi	き゚
+'gyu	き゚ゅ
+'gye	き゚ぇ
+'gyo	き゚ょ
+
+'gwya	く゚ゐゃ
+'gwyi	く゚ゐ
+'gwyu	く゚ゐゅ
+'gwye	く゚ゐぇ
+'gwyo	く゚ゐょ
+
 sa	さ
 si	し
 su	す
@@ -209,6 +269,43 @@ ci	し
 ce	せ
 xci	ㇱ
 lci	ㇱ
+
+za	ざ
+zi	じ
+zu	ず
+ze	ぜ
+zo	ぞ
+
+zwa	ざ
+zwi	ずぃ
+zwu	ず
+zwe	ぜ
+zwo	ぞ
+
+zwha	ざ
+zwhi	ずぃ
+zwhu	ず
+zwhe	ぜ
+zwho	ぞ
+
+zya	じゃ
+zyi	じ
+zyu	じゅ
+zye	じぇ
+zyo	じょ
+
+zwya	じゃ
+zwyi	じ
+zwyu	じゅ
+zwye	じぇ
+zwyo	じょ
+
+# J: ZY
+ja	じゃ
+ji	じ
+ju	じゅ
+je	じぇ
+jo	じょ
 
 ta	た
 ti	ち
@@ -271,18 +368,75 @@ tshu	ちゅ
 tshe	ちぇ
 tsho	ちょ
 
-tha	てゃ
-thi	てぃ
-thu	てゅ
-the	て
-tho	てょ
-
 # CH: TY
 cha	ちゃ
 chi	ち
 chu	ちゅ
 che	ちぇ
 cho	ちょ
+
+tha	てゃ
+thi	てぃ
+thu	てゅ
+the	て
+tho	てょ
+
+da	だ
+di	ぢ
+du	づ
+de	で
+do	ど
+
+dwa	づぁ
+dwi	づぃ
+dwu	づ
+dwe	づぇ
+dwo	づぉ
+
+dwha	づぁ
+dwhi	づぃ
+dwhu	づ
+dwhe	づぇ
+dwho	づぉ
+
+dya	ぢゃ
+dyi	ぢ
+dyu	ぢゅ
+dye	ぢぇ
+dyo	ぢょ
+
+dwya	ぢゃ
+dwyi	ぢ
+dwyu	ぢゅ
+dwye	ぢぇ
+dwyo	ぢょ
+
+# DZ: DW
+dza	づぁ
+dzi	づぃ
+dzu	づ
+dze	づぇ
+dzo	づぉ
+
+# DZy: DWy
+dzya	ぢゃ
+dzyi	ぢ
+dzyu	ぢゅ
+dzye	ぢぇ
+dzyo	ぢょ
+
+# dJ: dZY, DZy: DWy
+dja	ぢゃ
+dji	ぢ
+dju	ぢゅ
+dje	ぢぇ
+djo	ぢょ
+
+dha	でゃ
+dhi	でぃ
+dhu	でゅ
+dhe	で
+dho	でょ
 
 na	な
 ni	に
@@ -400,6 +554,66 @@ pho	ふぉ
 xphu	ㇷ
 lphu	ㇷ
 
+ba	ば
+bi	び
+bu	ぶ
+be	べ
+bo	ぼ
+
+bwa	ば
+bwi	び
+bwu	ぶ
+bwe	べ
+bwo	ぼ
+
+bwha	ば
+bwhi	び
+bwhu	ぶ
+bwhe	べ
+bwho	ぼ
+
+bya	びゃ
+byi	び
+byu	びゅ
+bye	びぇ
+byo	びょ
+
+bwya	びゃ
+bwyi	び
+bwyu	びゅ
+bwye	びぇ
+bwyo	びょ
+
+pa	ぱ
+pi	ぴ
+pu	ぷ
+pe	ぺ
+po	ぽ
+
+pwa	ぱ
+pwi	ぴ
+pwu	ぷ
+pwe	ぺ
+pwo	ぽ
+
+pwha	ぱ
+pwhi	ぴ
+pwhu	ぷ
+pwhe	ぺ
+pwho	ぽ
+
+pya	ぴゃ
+pyi	ぴ
+pyu	ぴゅ
+pye	ぴぇ
+pyo	ぴょ
+
+pwya	ぴゃ
+pwyi	ぴ
+pwyu	ぴゅ
+pwye	ぴぇ
+pwyo	ぴょ
+
 ma	ま
 mi	み
 mu	む
@@ -500,236 +714,22 @@ rwyo	りょ
 xrwyi	ㇼ
 lrwyi	ㇼ
 
-ga	が
-gi	ぎ
-gu	ぐ
-ge	げ
-go	ご
-
-gwa	ぐゎ
-gwi	ぐゐ
-gwu	ぐ
-gwe	ぐゑ
-gwo	ぐを
-
-gwha	ぐぁ
-gwhi	ぐぃ
-gwhu	ぐ
-gwhe	ぐぇ
-gwho	ぐぉ
-
-gya	ぎゃ
-gyi	ぎ
-gyu	ぎゅ
-gye	ぎぇ
-gyo	ぎょ
-
-gwya	ぐゐゃ
-gwyi	ぐゐ
-gwyu	ぐゐゅ
-gwye	ぐゐぇ
-gwyo	ぐゐょ
-
-'ga	か゚
-'gi	き゚
-'gu	く゚
-'ge	け゚
-'go	こ゚
-
-'gwa	く゚ゎ
-'gwi	く゚ゐ
-'gwu	く゚
-'gwe	く゚ゑ
-'gwo	く゚を
-
-'gwha	く゚ぁ
-'gwhi	く゚ぃ
-'gwhu	く゚
-'gwhe	く゚ぇ
-'gwho	く゚ぉ
-
-'gya	き゚ゃ
-'gyi	き゚
-'gyu	き゚ゅ
-'gye	き゚ぇ
-'gyo	き゚ょ
-
-'gwya	く゚ゐゃ
-'gwyi	く゚ゐ
-'gwyu	く゚ゐゅ
-'gwye	く゚ゐぇ
-'gwyo	く゚ゐょ
-
-za	ざ
-zi	じ
-zu	ず
-ze	ぜ
-zo	ぞ
-
-zwa	ざ
-zwi	ずぃ
-zwu	ず
-zwe	ぜ
-zwo	ぞ
-
-zwha	ざ
-zwhi	ずぃ
-zwhu	ず
-zwhe	ぜ
-zwho	ぞ
-
-zya	じゃ
-zyi	じ
-zyu	じゅ
-zye	じぇ
-zyo	じょ
-
-zwya	じゃ
-zwyi	じ
-zwyu	じゅ
-zwye	じぇ
-zwyo	じょ
-
-# J: ZY
-ja	じゃ
-ji	じ
-ju	じゅ
-je	じぇ
-jo	じょ
-
-da	だ
-di	ぢ
-du	づ
-de	で
-do	ど
-
-dwa	づぁ
-dwi	づぃ
-dwu	づ
-dwe	づぇ
-dwo	づぉ
-
-dwha	づぁ
-dwhi	づぃ
-dwhu	づ
-dwhe	づぇ
-dwho	づぉ
-
-dya	ぢゃ
-dyi	ぢ
-dyu	ぢゅ
-dye	ぢぇ
-dyo	ぢょ
-
-dwya	ぢゃ
-dwyi	ぢ
-dwyu	ぢゅ
-dwye	ぢぇ
-dwyo	ぢょ
-
-# DZ: DW
-dza	づぁ
-dzi	づぃ
-dzu	づ
-dze	づぇ
-dzo	づぉ
-
-# DZy: DWy
-dzya	ぢゃ
-dzyi	ぢ
-dzyu	ぢゅ
-dzye	ぢぇ
-dzyo	ぢょ
-
-# dJ: dZY, DZy: DWy
-dja	ぢゃ
-dji	ぢ
-dju	ぢゅ
-dje	ぢぇ
-djo	ぢょ
-
-dha	でゃ
-dhi	でぃ
-dhu	でゅ
-dhe	で
-dho	でょ
-
-ba	ば
-bi	び
-bu	ぶ
-be	べ
-bo	ぼ
-
-bwa	ば
-bwi	び
-bwu	ぶ
-bwe	べ
-bwo	ぼ
-
-bwha	ば
-bwhi	び
-bwhu	ぶ
-bwhe	べ
-bwho	ぼ
-
-bya	びゃ
-byi	び
-byu	びゅ
-bye	びぇ
-byo	びょ
-
-bwya	びゃ
-bwyi	び
-bwyu	びゅ
-bwye	びぇ
-bwyo	びょ
-
-pa	ぱ
-pi	ぴ
-pu	ぷ
-pe	ぺ
-po	ぽ
-
-pwa	ぱ
-pwi	ぴ
-pwu	ぷ
-pwe	ぺ
-pwo	ぽ
-
-pwha	ぱ
-pwhi	ぴ
-pwhu	ぷ
-pwhe	ぺ
-pwho	ぽ
-
-pya	ぴゃ
-pyi	ぴ
-pyu	ぴゅ
-pye	ぴぇ
-pyo	ぴょ
-
-pwya	ぴゃ
-pwyi	ぴ
-pwyu	ぴゅ
-pwye	ぴぇ
-pwyo	ぴょ
-
 ww	っ	w
 yy	っ	y
 vv	っ	v
 kk	っ	k
 qq	っ	q
-ss	っ	s
-tt	っ	t
-hh	っ	h
-ff	っ	f
-rr	っ	r
 gg	っ	g
+ss	っ	s
 zz	っ	z
 jj	っ	j
+tt	っ	t
 dd	っ	d
+hh	っ	h
+ff	っ	f
 bb	っ	b
 pp	っ	p
+rr	っ	r
 cc	っ	c
 xx	っ	x
 ll	っ	l
@@ -741,6 +741,9 @@ xl	っ	l
 # kQ: kKW
 kq	っ	q
 
+# zJ: zZY
+zj	っ	j
+
 # tCH: tTY
 tch	っ	ch
 
@@ -749,9 +752,6 @@ hf	っ	f
 
 # hPH: hHWH
 hph	っ	ph
-
-# zJ: zZY
-zj	っ	j
 
 # lX: lL
 lx	っ	x
@@ -775,13 +775,13 @@ l'g	𛅧
 lnm	𛅧
 lmn	𛅧
 
-'ye	𛀀
 'xwi	𛅤
 'xwe	𛅥
 'xwo	𛅦
 'lwi	𛅤
 'lwe	𛅥
 'lwo	𛅦
+'ye	𛀀
 'vu	ヴ
 'xka	ヵ
 'xke	ヶ
