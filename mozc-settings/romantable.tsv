@@ -514,11 +514,11 @@ hyo	ひょ
 xhyi	ㇶ
 lhyi	ㇶ
 
-hwya	ふゃ
-hwyi	ふぃ
-hwyu	ふゅ
-hwye	ふぇ
-hwyo	ふょ
+hwya	ひゃ
+hwyi	ひ
+hwyu	ひゅ
+hwye	ひぇ
+hwyo	ひょ
 
 # F: HW
 fa	ふぁ
@@ -538,13 +538,6 @@ fho	ふぉ
 xfhu	ㇷ
 lfhu	ㇷ
 
-# Fy: HWy
-fya	ふゃ
-fyi	ふぃ
-fyu	ふゅ
-fye	ふぇ
-fyo	ふょ
-
 # PH: HW
 pha	ふぁ
 phi	ふぃ
@@ -553,6 +546,12 @@ phe	ふぇ
 pho	ふぉ
 xphu	ㇷ
 lphu	ㇷ
+
+fya	ふゃ
+fyi	ふぃ
+fyu	ふゅ
+fye	ふぇ
+fyo	ふょ
 
 ba	ば
 bi	び
