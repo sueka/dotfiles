@@ -58,13 +58,11 @@ JIS X 4063:2000 で実装が推奨されている入出力の内、変換でき�
 
 ##### カタカナ化フラグ
 
-`'` は、続く仮名をカタカナにします。ひらがなが存在し、かつカタカナに変換できない仮名にのみ適用できます。 `𛀀` (U+1B000; KATAKANA LETTER ARCHAIC E), `𛅤` (U+1B164; KATAKANA LETTER SMALL WI), `𛅥` (U+1B165; KATAKANA LETTER SMALL WE), `𛅦` (U+1B166; KATAKANA LETTER SMALL WO), `ヴ`, `ヵ`, `ヶ` の7種類です。 `𛀀` (U+1B000; KATAKANA LETTER ARCHAIC E) は `'e` と入力します。
+`'` は、続く仮名をカタカナにします。ひらがなが存在し、かつひらがなからカタカナに（<kbd>F7</kbd> や <kbd>⌥</kbd> <kbd>X</kbd> などで）変換できない仮名にのみ適用できます。これにあたるカタカナは `𛀀` (U+1B000; KATAKANA LETTER ARCHAIC E), `𛅤` (U+1B164; KATAKANA LETTER SMALL WI), `𛅥` (U+1B165; KATAKANA LETTER SMALL WE), `𛅦` (U+1B166; KATAKANA LETTER SMALL WO), `ヴ`, `ヵ`, `ヶ` の7種類です。 `𛀀` (U+1B000; KATAKANA LETTER ARCHAIC E) は `'e` と入力します。
 
 ##### 捨て仮名化フラグ
 
-`x` は、続く仮名を捨て仮名にします。 `ぁ`, `ぃ`, `ぅ`, `ぇ`, `ぉ`, `ゎ`, `𛅐` (U+1B150; HIRAGANA LETTER SMALL WI), `𛅑` (U+1B151; HIRAGANA LETTER SMALL WE), `𛅒` (U+1B152; HIRAGANA LETTER SMALL WO), `ゃ`, `ゅ`, `ょ`, `ゕ`, `ㇰ`, `ゖ`, `ㇱ`, `ㇲ`, `っ`, `ㇳ`, `ㇴ`, `ㇵ`, `ㇶ`, `ㇷ`, `ㇸ`, `ㇹ`, `ㇺ`, `ㇻ`, `ㇼ`, `ㇽ`, `ㇾ`, `ㇿ`, `𛅧` (U+1B167; KATAKANA LETTER SMALL N) の32種類です。
-
-カタカナの捨て仮名には、ひらがなから（<kbd>F7</kbd> や <kbd>⌥</kbd> <kbd>X</kbd> などで）変換できないものがあります。これらはカタカナ化フラグを使って直接入力します。 `𛅤` (U+1B164; KATAKANA LETTER SMALL WI), `𛅥` (U+1B165; KATAKANA LETTER SMALL WE), `𛅦` (U+1B166; KATAKANA LETTER SMALL WO), `ヵ`, `ヶ` の5種類です。
+`x` は、続く仮名を捨て仮名にします。捨て仮名は `ぁ`, `ぃ`, `ぅ`, `ぇ`, `ぉ`, `ゎ`, `𛅐` (U+1B150; HIRAGANA LETTER SMALL WI), `𛅑` (U+1B151; HIRAGANA LETTER SMALL WE), `𛅒` (U+1B152; HIRAGANA LETTER SMALL WO), `ゃ`, `ゅ`, `ょ`, `ゕ`, `ㇰ`, `ゖ`, `ㇱ`, `ㇲ`, `っ`, `ㇳ`, `ㇴ`, `ㇵ`, `ㇶ`, `ㇷ`, `ㇸ`, `ㇹ`, `ㇺ`, `ㇻ`, `ㇼ`, `ㇽ`, `ㇾ`, `ㇿ`, `𛅧` (U+1B167; KATAKANA LETTER SMALL N) の32種類です。
 
 #### 子音
 
@@ -115,7 +113,7 @@ JIS X 4063:2000 で実装が推奨されている入出力の内、変換でき�
 | `f`        | `hw(?!y)`    |
 | `ph`       | `hw(?!h\|y)` |
 
-恣意的な子音も存在します。 `v`, `th`, `dh`, `fy`, `c` の5種類です。
+子音には恣意的なものもあります。恣意的な子音は `v`, `th`, `dh`, `fy`, `c` の5種類です。
 
 | 恣意的な子音 | 意味                                                                                                                        |
 |:-------------|:----------------------------------------------------------------------------------------------------------------------------|
