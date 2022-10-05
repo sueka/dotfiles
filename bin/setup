@@ -7,36 +7,19 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-NOW=$(date +%s) # Unix time
+now=$(date +%s) # Unix time
 
 #
 # Copied from /usr/include/sysexits.h
 #
 EX_OK=0
 EX_USAGE=64
-EX_DATAERR=65
-EX_NOINPUT=66
-EX_NOUSER=67
-EX_NOHOST=68
 EX_UNAVAILABLE=69
-EX_SOFTWARE=70
-EX_OSERR=71
-EX_OSFILE=72
-EX_CANTCREAT=73
-EX_IOERR=74
-EX_TEMPFAIL=75
-EX_PROTOCOL=76
-EX_NOPERM=77
-EX_CONFIG=78
 
-DOTFILES_DIR=$(cd "$(dirname "$0")/.."; pwd) # /path/to/dotfiles
+dotfiles_dir=$(cd "$(dirname "$0")/.."; pwd) # /path/to/dotfiles
+name=$(basename "$0") # setup
 
-NAME=$(basename "$0") # setup
-
-#
-# check_dependencies
-#
-check_dependencies() {
+check_deps() {
 	if (( $# != 0 )); then
 		return $EX_USAGE
 	fi
@@ -44,79 +27,79 @@ check_dependencies() {
 	ex=$EX_OK
 
 	if ! command -v fzf >/dev/null; then
-		echo_fatal "No command 'fzf' found." >&2
+		echo >&2 "No command 'fzf' found."
 		ex=$EX_UNAVAILABLE
 	fi
 
 	return $ex
 }
 
-#
-# main
-#
 main() {
 	if (( $# != 0 )); then
 		return $EX_USAGE
 	fi
 
-	home_dotfiles_dir="$DOTFILES_DIR/home"
+	dotfiles_home_dir="$dotfiles_dir/home" # /path/to/dotfiles/home
+
 	default_home=$HOME
 
-	paths_to_dotfile=$(find "$home_dotfiles_dir" -type f | fzf --prompt "Hit tab on home dotfiles you install. QUERY> " --reverse --multi)
+	# List of paths (to /path/to/dotfiles/home/**/*) you want to install
+	dotfile_paths=$(find "$dotfiles_home_dir" -type f | fzf --prompt "Hit tab on home dotfiles you install. QUERY> " --reverse --multi)
 
 	printf %s "Enter path to your home directory [$default_home]: "
 	IFS= read -r home
 
-	echo "$paths_to_dotfile" | while IFS= read -r path_to_dotfile
+	echo "$dotfile_paths" | while IFS= read -r dotfile_path
 	do
 		install \
-			"$path_to_dotfile" \
-			"$(printf %s "$path_to_dotfile" | sed "s%^$home_dotfiles_dir%${home:-$default_home}%")"
+			"$dotfile_path" \
+			"$(printf %s "$dotfile_path" | sed "s%^$dotfiles_home_dir%${home:-$default_home}%")"
 	done
 }
 
 #
-# install <source_path> <destination_path>
+# install <src_path> <dest_path>
 #
 install() {
 	if (( $# != 2 )); then
 		return $EX_USAGE
 	fi
 
-	source_path=$1 && shift
-	destination_path=$1 && shift
+	src_path=$1 && shift
+	dest_path=$1 && shift
 
-	# $source_path が存在しないか、または読み取り可能でない場合
-	if ! [[ -r "$source_path" ]]; then
+	# If $src_path does NOT EXIST or is UNREADABLE
+	if ! [[ -r "$src_path" ]]; then
 		return $EX_USAGE
 	fi
-	# 読み取り可能な $source_path が存在する
+	# $src_path EXISTS and is READABLE
 
-	# $destination_path が $source_path を参照するシンボリックリンクの場合
-	if [ -L "$destination_path" ] && [[ "$source_path" -ef "$destination_path" ]]; then
+	# If $dest_path is a SYMLINK to $src_path
+	if [ -L "$dest_path" ] && [[ "$src_path" -ef "$dest_path" ]]; then
 		return $EX_OK
 	fi
-	# $destination_path は $source_path を参照するシンボリックリンクではない
+	# $dest_path is NOT a SYMLINK to $src_path
 
-	# $destination_path が存在する場合
-	if [ -e "$destination_path" ]; then
-		mv "$destination_path" "$destination_path.$NOW"
+	# If $dest_path EXISTS
+	if [ -e "$dest_path" ]; then
+		mv "$dest_path" "$dest_path.$now"
 	fi
+	# $dest_path does NOT EXIST
 
-	ln -s "$source_path" "$destination_path"
+	ln -s "$src_path" "$dest_path"
 }
 
 #
 # entry point
 #
-case "$NAME" in
+case "$name" in
 	setup )
-		check_dependencies
+		check_deps
 		main "$@"
 	;;
 
 	setup_test )
-		check_dependencies
+		check_deps
 	;;
 
 	* )
