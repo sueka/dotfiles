@@ -27,6 +27,10 @@ if [[ -r "$brew_install_path"/etc/profile.d/bash_completion.sh ]]; then
 	source "$brew_install_path"/etc/profile.d/bash_completion.sh
 fi
 
+if [[ -d "$brew_install_path"/etc/bash_completion.d ]]; then
+	source "$brew_install_path"/etc/bash_completion.d/*
+fi
+
 source <(kubectl completion bash)
 source <(npm completion)
 

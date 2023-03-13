@@ -1,13 +1,14 @@
 #
 # Set common variables
 #
-brew_install_path=$(dirname "$(dirname "$(command -v brew)")") # TODO: use `brew --prefix <formula>`. See also https://github.com/Homebrew/brew/issues/3097
+# TODO: Use `brew --prefix <formula>` instead. See also https://github.com/Homebrew/brew/issues/3097.
+brew_install_path=$(dirname "$(dirname "$(command -v brew)")")
 
 #
 # Set export common envvars
 #
 export LANG='en_US.UTF-8'
-export PATH="$brew_install_path/sbin:$PATH" # brew doctor suggests
+export PATH="$brew_install_path/sbin:$PATH" # `brew doctor` suggests
 
 #
 # Setup utilities
@@ -30,11 +31,13 @@ export DYLD_LIBRARY_PATH="$brew_install_path/opt/mysql@5.7:$DYLD_LIBRARY_PATH"
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home -Fv 1.8)
 export PATH="$JAVA_HOME/bin:$PATH"
-alias jshell="JAVA_HOME=$(/usr/libexec/java_home -Fv 14) jshell"
+alias jshell="JAVA_HOME=$(/usr/libexec/java_home -F) jshell"
 # rbenv
 eval "$(rbenv init -)"
 # nodenv
 eval "$(nodenv init -)"
+# Deno
+export PATH="$HOME/.deno/bin:$PATH"
 # fuck
 eval "$(thefuck --alias)"
 # miniconda
@@ -64,15 +67,32 @@ export LESSOPEN="| $brew_install_path/bin/src-hilite-lesspipe.sh %s"
 # Load .bashrc
 #
 if [[ -r "$HOME/.bashrc" ]]; then
-	source "$HOME/.bashrc" # NOTE: ここで conda 用にセットアップされた $PS1 が飛ぶ。
+	source "$HOME/.bashrc" # Reverts PS1 set by miniconda.
 fi
 
 #
 # Register aliases
 #
+#
+# git phd - Prints Home Directory.
+# git home - Goes home.
+#
 _git_extended() {
 	if ! command -v git >/dev/null; then
-		git
+		git "$@"
+		return
+	fi
+
+	if [ "$1" = phd ]; then
+		if [ -n "$2" ]; then
+			echo >&2 "${@:2}: invalid option"
+			echo >&2 'usage: git phd'
+
+			return 64 # EX_USAGE
+		fi
+
+		(cd "$(git rev-parse --git-dir)/.."; pwd)
+		return
 	fi
 
 	if [ "$1" = home ]; then
@@ -83,22 +103,22 @@ _git_extended() {
 			return 64 # EX_USAGE
 		fi
 
-		if ! git phd 2>/dev/null; then # defined in ~/.gitconfig
-			return 70 # EX_SOFTWARE; `git <foo>` (<foo> is undefined) exits with zero
-		fi
-
-		cd "$(git phd)"
-	else
-		git "$@"
+		cd "$(git rev-parse --git-dir)/.." # cd "$(git phd)"
+		return
 	fi
+
+	git "$@"
 }
 
 alias git=_git_extended
 
+#
+# cd
+#
 _cd_extended() {
 	if ! command -v mdfind 1>/dev/null && ! command -v fzf 1>/dev/null; then
 		cd "$@"
-		return $?
+		return
 	fi
 
 	optionEnds=false
@@ -113,15 +133,15 @@ _cd_extended() {
 		fi
 
 		if ! $optionEnds && [[ "$argument" == -* ]]; then
-			options=("$argument")
+			options+=("$argument")
 		else
 			operands+=("$argument")
 		fi
 	done
 
 	if (( ${#operands[@]} != 1 )); then
-		cd "$@"
-		return $? # non-zero
+		cd "$@" # cd: too many arguments
+		return
 	fi
 
 	destination_name=${operands[0]}
@@ -133,7 +153,14 @@ _cd_extended() {
 	dirs=$(mdfind -onlyin . "(kMDItemContentTypeTree == public.folder || kMDItemContentTypeTree == dyn.*) && kMDItemFSName == $destination_name")
 
 	if [ -z "$dirs" ]; then
-		# NOTE: `cd <path>` の形式で実行された場合（ `cd /`, `cd ~`, `cd ..`, `cd ./foo`, `cd foo/bar` など）もこゝに到達する。
+		# NOTE: `cd <path>` の形式で実行された場合はこゝに到達する:
+		#
+		# - `cd /`
+		# - `cd ~`
+		# - `cd ..`
+		# - `cd foo`
+		# - `cd ./foo`
+		# - `cd foo/bar`
 
 		if cd "$@" 2>/dev/null; then
 			return 0
@@ -146,12 +173,13 @@ _cd_extended() {
 	dir=$(echo "$dirs" | fzf -0 -1)
 	fzf_exit_status=$?
 
+	# NOTE: The fzf command exits with 1 if there are no match. See also `man fzf`.
 	if (( $fzf_exit_status != 0 )); then
 		return $fzf_exit_status
 	fi
 
 	if [ -z "$dir" ]; then
-		echo >&2 "Unreachable Error" # NOTE: fzf は no match なら 1 で終了する。 cf. `man fzf`
+		echo >&2 "Unreachable Error"
 		return 70 # EX_SOFTWARE
 	fi
 

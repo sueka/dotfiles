@@ -21,7 +21,7 @@
 	current-branch = symbolic-ref --short HEAD
 	current-hash = !"GIT_PAGER= git show -s --format=%H"
 	contributors = shortlog -ns --no-merges
-	phd = rev-parse --show-toplevel # print home directory
+	phd = !":" # for completion, defined in ~/.bash_profile
 	home = !":" # for completion, defined in ~/.bash_profile
 	sw = !"git checkout $(git checkouts | awk '_[$0]++==0' | fzf)"
 	branches = !"git branch | cut -c3- | sed -E \"s#remotes/($(for i in $(git remote); do printf %s \"|$i\"; done | sed 's/^|//'))/##\" | awk '_[$0]++==0'"
